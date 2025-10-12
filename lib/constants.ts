@@ -15,5 +15,5 @@ export const UI_CONSTANTS = {
 // Theme Configuration
 export const THEME_CONFIG = {
   STORAGE_KEY: 'chatbot-theme',
-  DEFAULT_THEME: 'dark' as const,
+  DEFAULT_THEME: 'light' as const,
 } as const;
