@@ -6,15 +6,22 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "type-check": "tsc --noEmit",
+    "check": "pnpm run type-check && pnpm run lint"
   },
   "dependencies": {
     "@ai-sdk/google": "^2.0.20",
     "@ai-sdk/react": "^2.0.68",
+    "@supabase/supabase-js": "^2.75.0",
+    "@types/react-syntax-highlighter": "^15.5.13",
     "ai": "^5.0.68",
     "next": "15.5.4",
     "react": "19.1.0",
     "react-dom": "19.1.0",
+    "react-markdown": "^10.1.0",
+    "react-syntax-highlighter": "^15.6.6",
+    "remark-gfm": "^4.0.1",
     "zod": "^4.1.12"
   },
   "devDependencies": {
