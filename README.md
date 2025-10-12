@@ -255,25 +255,50 @@ Send a message to the AI and receive a streaming response.
 
 **Response:** Streaming text response
 
-## 🤝 Contributing
+## 🚫 Contributing Policy
 
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit your changes (`git commit -m 'Add amazing feature'`)
-4. Push to the branch (`git push origin feature/amazing-feature`)
-5. Open a Pull Request
+**This project is currently NOT accepting contributions** from external contributors. This is intentional and by design.
 
-### Development Guidelines
+### 📚 Project Purpose
 
-- Follow TypeScript best practices
-- Write tests for new features
-- Update documentation as needed
-- Follow the existing code style
-- Ensure all tests pass before submitting
+This project is created for:
+- **Portfolio Demonstration** - Showcasing AI engineering skills
+- **Educational Learning** - Understanding AI chatbot implementation
+- **Resume Enhancement** - Demonstrating full-stack AI application development
+- **Technical Showcase** - Displaying production-ready code quality
+
+### 💡 How You Can Help
+
+While we're not accepting code contributions, you can still help by:
+- **⭐ Starring** the repository if you find it useful
+- **🔍 Reporting Issues** - Help identify bugs or improvements
+- **💬 Providing Feedback** - Share your thoughts on the implementation
+- **📖 Learning Together** - Use this as a reference for your own projects
+- **🤝 Networking** - Connect for professional opportunities
 
 ## 📄 License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License with **commercial use restrictions** - see the [LICENSE](LICENSE) file for details.
+
+### ⚠️ Important License Terms
+
+**This software is created for educational and portfolio purposes only.**
+
+#### 🚫 Prohibited Uses:
+- Commercial use, including selling or licensing this software
+- Using this software in commercial products or services
+- Creating derivative works for commercial purposes
+- Using this software to generate revenue
+- Deploying this software for commercial SaaS offerings
+
+#### ✅ Permitted Uses:
+- Personal learning and education
+- Portfolio demonstration
+- Resume/portfolio showcasing
+- Academic research and study
+- Non-commercial personal projects
+
+**By using this software, you agree to these terms and conditions.**
 
 ## 🙏 Acknowledgments
 
@@ -287,9 +312,16 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 If you have any questions or need help:
 
-1. Check the [Issues](https://github.com/your-repo/issues) page
-2. Create a new issue with detailed information
-3. Join our community discussions
+1. Check the [Issues](https://github.com/your-repo/issues) page for existing discussions
+2. Create a new issue with detailed information (for technical discussions only)
+3. Contact the author directly for professional networking opportunities
+
+### ⚠️ Important Notes
+
+- This project is for **educational and portfolio purposes only**
+- **Commercial use is prohibited** without explicit written permission
+- Please respect the license terms and use responsibly
+- Security vulnerabilities should be reported privately, not publicly
 
 ---
 
