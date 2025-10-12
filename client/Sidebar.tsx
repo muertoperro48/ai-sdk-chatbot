@@ -18,6 +18,17 @@ export function Sidebar({ currentConversationId, onConversationSelect, onNewChat
 
   useEffect(() => {
     loadConversations();
+    
+    // Listen for conversation changes
+    const handleConversationChanged = () => {
+      loadConversations();
+    };
+    
+    window.addEventListener('conversationChanged', handleConversationChanged);
+    
+    return () => {
+      window.removeEventListener('conversationChanged', handleConversationChanged);
+    };
   }, []);
 
   const loadConversations = async () => {
@@ -61,29 +72,27 @@ export function Sidebar({ currentConversationId, onConversationSelect, onNewChat
       isCollapsed ? 'w-16' : 'w-64'
     }`}>
       {/* Header */}
-      <div className="p-4 border-b border-gray-200 dark:border-gray-700">
-        <div className="flex items-center justify-between">
-          {!isCollapsed && (
-            <h2 className="text-lg font-semibold text-gray-900 dark:text-gray-100">
-              ChatGPT
-            </h2>
-          )}
-          <button
-            onClick={() => setIsCollapsed(!isCollapsed)}
-            className="p-1.5 rounded hover:bg-gray-200 dark:hover:bg-gray-700 transition-colors"
-          >
-            <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 6h16M4 12h16M4 18h16" />
-            </svg>
-          </button>
-        </div>
+      <div className="flex items-center justify-between p-4 border-b border-gray-200 dark:border-gray-700">
+        {!isCollapsed && (
+          <h2 className="text-lg font-semibold text-gray-900 dark:text-white">
+            AI Chat
+          </h2>
+        )}
+        <button
+          onClick={() => setIsCollapsed(!isCollapsed)}
+          className="p-1.5 rounded hover:bg-gray-200 dark:hover:bg-gray-700 transition-colors text-gray-600 dark:text-gray-300"
+        >
+          <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 6h16M4 12h16M4 18h16" />
+          </svg>
+        </button>
       </div>
 
       {/* New Chat Button */}
       <div className="p-4">
         <button
           onClick={onNewChat}
-          className="w-full flex items-center gap-3 p-3 rounded-lg border border-gray-300 dark:border-gray-600 hover:bg-gray-100 dark:hover:bg-gray-800 transition-colors"
+          className="w-full flex items-center gap-3 p-3 rounded-lg border border-gray-300 dark:border-gray-600 hover:bg-gray-100 dark:hover:bg-gray-800 transition-colors text-gray-700 dark:text-gray-200"
         >
           <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 4v16m8-8H4" />
@@ -109,7 +118,7 @@ export function Sidebar({ currentConversationId, onConversationSelect, onNewChat
                 className={`group flex items-center gap-3 p-3 rounded-lg cursor-pointer transition-colors relative ${
                   currentConversationId === conversation.id
                     ? 'bg-blue-100 dark:bg-blue-900/30 text-blue-900 dark:text-blue-100'
-                    : 'hover:bg-gray-100 dark:hover:bg-gray-800'
+                    : 'hover:bg-gray-100 dark:hover:bg-gray-800 text-gray-700 dark:text-gray-200'
                 }`}
               >
                 <svg className="w-4 h-4 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -129,7 +138,7 @@ export function Sidebar({ currentConversationId, onConversationSelect, onNewChat
                     
                     <button
                       onClick={(e) => deleteConversation(conversation.id, e)}
-                      className="opacity-0 group-hover:opacity-100 p-1 rounded hover:bg-gray-200 dark:hover:bg-gray-700 transition-all"
+                      className="opacity-0 group-hover:opacity-100 p-1 rounded hover:bg-gray-200 dark:hover:bg-gray-700 transition-all text-gray-500 dark:text-gray-400"
                     >
                       <svg className="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
